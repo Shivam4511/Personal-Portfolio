@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivam Panigrahi- Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>Shivam</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="nav-link">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#achievements" class="nav-link">Achievements</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="theme-toggle">
+                <button class="theme-switch" id="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="greeting">Hello, I'm</span>
+                    <span class="name">Shivam Panigrahi</span>
+                </h1>
+                <p class="hero-subtitle">Data Scientist & ML Developer</p>
+                <p class="hero-description">
+                    I am a Data Scientist and ML Developer with a passion for building scalable , cutting-edge and efficient solutions.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="profile-image">
+                        <img src="WhatsApp Image 2024-12-09 at 19.46.15_038b54a5.jpg" alt="Shivam Panigrahi" class="profile-photo">
+                        <!-- Fallback placeholder if image doesn't load -->
+                        <div class="image-placeholder" style="display: none;">
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
+                    <div class="floating-elements">
+                        <div class="floating-icon" style="--delay: 0s">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="floating-icon" style="--delay: 1s">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="floating-icon" style="--delay: 2s">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <div class="floating-icon" style="--delay: 3s">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I am a Data Scientist and ML/AI Developer with a passion for building scalable, efficient, and cutting-edge solutions. 
+                        I have a strong foundation in machine learning, exploratory data analysis, and software development, which allows me to transform complex data into actionable insights.
+                    </p>
+                    <p>
+                        My journey began with a deep curiosity about how data and algorithms can solve real-world problems. Over time, this evolved into a career focused on designing and developing intelligent applications that deliver measurable impact. I believe in writing clean, maintainable code and continuously staying updated with the latest trends, tools, and best practices in the industry.
+                    <p>
+                        I am always eager to learn and apply new technologies to challenging problems. As a quick learner and adaptive team player, I actively seek opportunities to contribute, collaborate, and innovate. I have also participated in various national and international hackathons, leading teams and delivering successful outcomes under tight deadlines.
+                    </p>
+                   
+                </div>
+                <div class="about-image">
+                    <div class="image-container">
+                        <img src="WhatsApp Image 2024-12-09 at 19.46.15_038b54a5.jpg" alt="Shivam Panigrahi" class="about-photo">
+                        <!-- Fallback placeholder if image doesn't load -->
+                        <div class="image-placeholder-large" style="display: none;">
+                            <i class="fas fa-code"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-content">
+                <div class="education-main">
+                    <div class="education-card">
+                        <div class="education-header">
+                            <div class="education-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="education-info">
+                                <h3>Bachelor of Technology in Computer Science Engineering</h3>
+                                <span class="institution">NIST University</span>
+                                <span class="location">Berhampur, Odisha</span>
+                            </div>
+                        </div>
+                        <div class="education-details">
+                            <div class="education-meta">
+                                <span class="duration">2022 - 2026</span>
+                                <span class="gpa">CGPA: 8.6/10</span>
+                                <span class="status">Expected Graduation: 2026</span>
+                            </div>
+                            <div class="education-highlights">
+                                <h4>Relevant Coursework</h4>
+                                <div class="coursework-grid">
+                                    <span class="coursework-item">Machine Learning</span>
+                                    <span class="coursework-item">Data Structures & Algorithms</span>
+                                    <span class="coursework-item">Database Management Systems</span>
+                                    <span class="coursework-item">Computer Networks</span>
+                                    <span class="coursework-item">Operating Systems</span>
+                                    <span class="coursework-item">Software Engineering</span>
+                                    <span class="coursework-item">OOPs in Java</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Machine Learning & AI</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-brain"></i>
+                            <span>TensorFlow</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-robot"></i>
+                            <span>Scikit-learn</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-network-wired"></i>
+                            <span>PyTorch</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Numpy & Pandas</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Computer Vision & NLP</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-eye"></i>
+                            <span>OpenCV</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-language"></i>
+                            <span>OCR & Tesseract</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-comments"></i>
+                            <span>NLP</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="65"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend & Database</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-server"></i>
+                            <span>Flask</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-rocket"></i>
+                            <span>FastAPI</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MongoDB</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-table"></i>
+                            <span>SQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Platforms</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git & GitHub</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-docker"></i>
+                            <span>Docker</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>VS Code</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-chart-bar"></i>
+                            <span>Power BI</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>AI-ML Intern</h3>
+                            <span class="company">NirveonX Omnicare Pvt. Ltd.</span>
+                            <span class="duration">May 2025 - September 2025</span>
+                        </div>
+                        <p>Working on developing Multipersona chatbots, interactive games for users using ML, research on AI driven systems for Helathcare. Developed end to end applications and integration with AI models. Leads a team of 7 memebers in the the reasearch team </p>
+                        <div class="timeline-tech">
+                            <span>Tensorflow</span>
+                            <span>Flask</span>
+                            <span>Python</span>
+                            <span>Sci-kit Learn</span>
+                            <span>AWS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Summer Intern</h3>
+                            <span class="company">Software Technology Parks of India</span>
+                            <span class="duration">June 2025 - July 2025</span>
+                        </div>
+                        <p>Developed responsive websites and applications for the department. Collaborated with designers and backend developers to deliver high-quality products.</p>
+                        <div class="timeline-tech">
+                            <span>JavaScript</span>
+                            <span>Flutter</span>
+                            <span>Git</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>AI-ML Intern</h3>
+                            <span class="company">Next24 Technologies</span>
+                            <span class="duration">Nov 2024 -  Jan 2025</span>
+                        </div>
+                        <p>Started my career as a junior AI-ML Intern, working on small projects and learning data cleaning, collection of real time data, exploratory data analysis. Contributed to the development of 10% of increase in accuracy of their existing models.</p>
+                        <div class="timeline-tech">
+                            <span>Sci-kit Learn</span>
+                            <span>Numpy & Pandas</span>
+                            <span>SQL</span>
+                            <span>MongoDB</span>
+                            <span>PowerBI</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-project="learnify">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <button class="view-details-btn">
+                                <i class="fas fa-eye"></i> View Details
+                            </button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Learnify.ai</h3>
+                            <div class="project-category">Learning Platform</div>
+                        </div>
+                        <p class="project-summary">AI-powered flashcard platform with intelligent learning algorithms and personalized study materials.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Flask</span>
+                            <span>Streamlit</span>
+                            <span>NLP</span>
+                            <span>LLM</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Shivam4511/Learnify.ai" class="project-link"><i class="fab fa-github"></i>Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-project="yoca">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <button class="view-details-btn">
+                                <i class="fas fa-eye"></i> View Details
+                            </button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>YOCA</h3>
+                            <div class="project-category">Healthcare App</div>
+                        </div>
+                        <p class="project-summary">Chronic disease management platform with ML-powered health insights and doctor recommendations.</p>
+                        <div class="project-tech">
+                            <span>Sci-kit Learn</span>
+                            <span>Flask</span>
+                            <span>React-Native</span>
+                            <span>Python</span>
+                            <span>OCR & Tesseract</span>
+                            <span>Supabase</span>
+                            <span>GeoLocation API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Shivam4511/Yoca" class="project-link"><i class="fab fa-github"></i> Code </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-project="trackmylane">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-car"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <button class="view-details-btn">
+                                <i class="fas fa-eye"></i> View Details
+                            </button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Track My Lane</h3>
+                            <div class="project-category">Computer Vision</div>
+                        </div>
+                        <p class="project-summary">Real-time lane detection system for autonomous driving with advanced computer vision algorithms.</p>
+                        <div class="project-tech">
+                            <span>OpenCV</span>
+                            <span>Python</span>
+                            <span>Flask</span>
+                            <span>NumPy</span>
+                            <span>Computer Vision</span>
+                            <span>Machine Learning</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Shivam4511/TrackMyLane" class="project-link"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+            </div>
+            <div class="project-card" data-project="cinesage">
+                <div class="project-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <div class="project-overlay">
+                        <button class="view-details-btn">
+                            <i class="fas fa-eye"></i> View Details
+                        </button>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3>CineSage</h3>
+                        <div class="project-category">Recommendation System</div>
+                    </div>
+                    <p class="project-summary">Recommendation system for movies using content and collaborative filtering, powered by LLMs.</p>
+                    <div class="project-tech">
+                        <span>Machine Learning</span>
+                        <span>FastAPI</span>
+                        <span>HTML5 & CSS3</span>
+                        <span>LLMs</span>
+                        <span>Content and Collaborative Filtering</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Shivam4511/CineSage" class="project-link"><i class="fab fa-github"></i> Code </a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card" data-project="billbot">
+                <div class="project-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <div class="project-overlay">
+                        <button class="view-details-btn">
+                            <i class="fas fa-eye"></i> View Details
+                        </button>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3>BillBot</h3>
+                        <div class="project-category">Deep Learning</div>
+                    </div>
+                    <p class="project-summary">Deep Learning based billboard detection system used for automatic billboard detection, flagging and classification.</p>
+                    <div class="project-tech">
+                        <span>Deep Learning</span>
+                        <span>FastAPI</span>
+                        
+                        <span>YOLO</span>
+                        <span>OpenCV</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Shivam4511/BillBot" class="project-link"><i class="fab fa-github"></i> Code </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2 class="section-title">Achievements & Certifications</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>TechFiesta Interantional Hackathon 2025 - Finalist</h3>
+                    <p>Recognized as the top performer in the development team for 2023, delivering exceptional results and innovative solutions.</p>
+                    <span class="achievement-date">2025</span>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>AWS Certified</h3>
+                    <p>Successfully completed AWS Certifications in Machine Learning and Natural Language Processing.</p>
+                    <span class="achievement-date">2025</span>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3>NPTEL MEDALIST</h3>
+                    <p>Won Elite Medals by NPTEL in Machine Learning and Demysitiying Netwroking.</p>
+                    <span class="achievement-date">2024 & 2025</span>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3>Google and Cisco Certified in Python</h3>
+                    <p>Certified in Python from prestigous companies.</p>
+                    <span class="achievement-date">2024 & 2025 </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's work together!</h3>
+                    <p>I'm always interested in new opportunities and exciting projects. Feel free to reach out if you'd like to collaborate or just want to say hello.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>shivampanigrahi304@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>7848935520</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Odisha</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/Shivam4511" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/shivam-panigrahi-45sh2004/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://leetcode.com/u/ShivamPanigrahi1007/" class="social-link leetcode-link"><i class="fas fa-terminal"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Shivam Panigrahi. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Project Details Modal -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modal-title">Project Details</h2>
+                <button class="close-modal" id="close-modal">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <div class="modal-image-placeholder">
+                        <i id="modal-icon" class="fas fa-code"></i>
+                    </div>
+                </div>
+                <div class="modal-details">
+                    <div class="modal-category" id="modal-category">Category</div>
+                    <p id="modal-description">Project description will appear here.</p>
+                    <div class="modal-features">
+                        <h4>Key Features</h4>
+                        <ul id="modal-features-list">
+                            <!-- Features will be populated by JavaScript -->
+                        </ul>
+                    </div>
+                    <div class="modal-tech">
+                        <h4>Technologies Used</h4>
+                        <div id="modal-tech-stack">
+                            <!-- Tech stack will be populated by JavaScript -->
+                        </div>
+                    </div>
+                    <div class="modal-achievements">
+                        <h4>Achievements</h4>
+                        <p id="modal-achievements">Achievements will appear here.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="#" id="modal-github-link" class="btn btn-primary">
+                    <i class="fab fa-github"></i> View Code
+                </a>
+                <a href="#" id="modal-demo-link" class="btn btn-secondary" style="display: none;">
+                    <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
